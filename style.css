@@ -1,152 +1,250 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.header {
-  padding: 20px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #0fa36b;
-}
-
-img {
-  width: 100%;
-}
-
-.header-img {
-  flex-basis: 15%;
-  border: 3px solid white;
-  box-shadow: 1px 5px 20px;
-}
-
-.header-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.top-nav {
-  display: flex;
-  align-self: flex-start;
-  justify-content: center;
-}
-
-.top-nav a {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  margin: 0px 30px;
-}
-
-.skill-cards {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 50px;
-}
-
-ol {
-  padding: 10px 50px;
-  margin:0 0 0 10px;
-}
-
-ul {
-  padding: 10px 50px;
-  list-style: inside;
-}
-
-.main-board {
-  display: flex;
-  width: 30%;
-  border: 3px solid #0fa36b;
-  padding: 20px 50px;
-  background-color: #ffffff;
-}
-
-.main-board ol {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.main-board ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.main-board article {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.aside {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.aside div {
-  margin-top: 20px;
-}
-
-.aside-style {
-  border: 3px solid #0fa36b;
-  padding: 20px 50px;
-  background-color: #ffffff;
-  margin: 20px 50px;
-}
-
-.soft-skills {
-  color: #0fa36b;
-  text-transform: uppercase;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  text-shadow: 1px 1px 4px rgb(177, 177, 177);
-}
-
-.footer {
-  padding: 20px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 10px #0fa36b;
-  margin: 20px 50px;
-}
-
-.footer-logos {
-  display: flex;
-  flex-basis: 15%;
-  justify-content: space-between;
-}
-
-.linked-in {
-  height: 50px;
-  width: 50px;
-  background-image: url("https://pngimg.com/uploads/linkedIn/linkedIn_PNG32.png");
-  background-size: cover;
-  ma
-}
-
-.github {
-  height: 50px;
-  width: 50px;
-  background-image: url("https://image.flaticon.com/icons/png/512/25/25231.png");
-  background-size: cover;
-}
-
-.melhor-versao {
-    height: 50px;
-    width: 50px;
-    background-image: url(./Melhorversão\ 2.0.png);
-    background-size: cover;
+@media screen and (max-width: 569px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .about-me-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    text-align: justify;
   }
 
-.footer-text {
+  .header {
+    align-items: center;
+    background-color: #036b52;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: column;
+    color: #0255c2;
+    text-decoration: none;
+  }
   
+  .header a {
+    font-size: 14px;
+    align-self: flex-start;
+  }
+
+  img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cats-img {
+    margin-top: 20px;
+    display: flex
+  }
+
+  .about-trybe-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    text-align: justify;
+  }
+
+  .done-projects-section {
+    background-color:#036b52;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    margin: 10px 30px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .done-projects-section a {
+    color: white;
+  }
+
+  .footer-section {
+    background-color:#0255c2;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+  }
+
+  .social-links {
+    width: 20%
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .about-me-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    text-align: justify;
+  }
+
+  .header {
+    align-items: center;
+    background-color: #036b52;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: column;
+    color: #0255c2;
+    text-decoration: none;
+  }
+  
+  .header a {
+    font-size: 14px;
+    align-self: flex-start;
+  }
+
+  img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cats-img {
+    margin-top: 20px;
+    display: flex
+  }
+
+  .about-trybe-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    text-align: justify;
+  }
+
+  .done-projects-section {
+    background-color:#036b52;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    margin: 10px 30px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .done-projects-section a {
+    color: white;
+  }
+
+  .footer-section {
+    background-color:#0255c2;
+    display: flex;
+    justify-content: space-between;
+    max-height: 20%;
+    padding: 20px
+  }
+
+  .social-links {
+    align-self: center;
+    width: 10%
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .about-me-section {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    margin: 20px 30px;
+    text-align: justify;
+  }
+
+  .header {
+    align-items: center;
+    background-color: #036b52;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    text-decoration: none;
+  }
+  
+  .header a {
+    align-self: flex-start;
+    color: white;
+    font-size: 18px;
+  }
+
+  img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cats-img {
+    margin-top: 20px;
+    display: flex
+  }
+
+  .about-trybe-section {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    margin: 20px 30px;
+    text-align: justify;
+  }
+
+  .done-projects-section {
+    background-color:#036b52;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    margin: 10px 30px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .done-projects-section a {
+    color: white;
+  }
+
+  .footer-section {
+    background-color:#0255c2;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+  }
+
+  .social-links {
+    width: 10%
+  }
+
 }
